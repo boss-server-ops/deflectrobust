@@ -1,6 +1,8 @@
-# DEFLECT — Anonymous Code & Data Release
+# DEFLECT — Code & Data Release
 
-Open-sourced code and evaluation data accompanying **"DEFLECT: Delay-Robust Execution via Flow-matching Likelihood-Estimated Counterfactual Tuning for VLA Policies"** (anonymous submission).
+Code and evaluation data accompanying **"DEFLECT: Temporal Counterfactual Preference Learning for Delay-Robust Asynchronous VLAs"**.
+
+The Hong Kong University of Science and Technology (Guangzhou).
 
 Contains:
 - **`kinetix/`** — training and evaluation code for the Kinetix benchmark (small symbolic flow-matching policy, JAX/Flax).
@@ -12,7 +14,9 @@ Contains:
 
 ### Checkpoint release
 
-The DEFLECT-trained checkpoints — both the Kinetix per-task policies (12 flow-matching policies, JAX/Flax, ~3M params each) and the LIBERO π₀.₅ refinement (200-step DPO post-training on top of the released VLASH async5 base) — will be released upon acceptance. During the review period, only the training/evaluation code and the numerical eval results in `data/` are provided in this repo; trained weights are withheld to preserve double-blind anonymity.
+Trained checkpoints are not included in this repository. What is provided is the
+training and evaluation code for all three backbones and the numerical results
+in `data/` behind every claim in the paper.
 
 ---
 

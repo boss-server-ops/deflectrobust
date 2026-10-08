@@ -15,7 +15,7 @@ tqdm-loggable
 wandb
 
 # Kinetix environment (install from source — pin to the version used in the paper)
-# git clone https://github.com/<anon-org>/kinetix.git && pip install -e ./kinetix
+# git clone https://github.com/FLAIROx/Kinetix.git && pip install -e ./Kinetix
 # kinetix == 0.3.x
 
 # LIBERO retraining (PyTorch stack)
