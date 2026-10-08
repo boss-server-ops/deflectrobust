@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# run artifacts
+runs/
+pairs/
+*.pt
+*.safetensors
+*.ckpt
+*.log
+wandb/
+
+# os
+.DS_Store
